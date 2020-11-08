@@ -78,7 +78,7 @@ zotcard.initPrefs = function (item) {
         Zotero.Prefs.set('zotcard.general', pref)
       }
       break
-    case 'card1':
+    case 'story':
       pref = Zotero.Prefs.get('zotcard.story')
       if (!pref) {
         pref = '<h3>## 故事卡- </h3>\n<p>- <strong>故事</strong>：</p><p>- <strong>启示</strong>：</p><p>- <strong>出处</strong>：</p><p>{authors}《{title}》({year}) P</p><p>- <strong>日期</strong>：</p><p>{today}</p>'
